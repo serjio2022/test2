@@ -1,0 +1,151 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1,7em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,191,254,1);
+	background: -moz-linear-gradient(left, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,191,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebffe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	color: #fff;
+}
+
+.wrapp {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 140px;
+	font-style: 30px;
+}
+
+.title {
+	width: 650px;
+}
+
+.title span {
+	font-size: 50px;
+	line-height: 1,5em;
+
+}
+
+.intro {
+	width: 400px;
+	margin-top: 30px;
+	margin-bottom: 55px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: black;
+	display: block;
+	width: 220px;
+	padding: 28px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #96ff00;
+}
+
+.picture {
+	margin-top: 48px;
+}
+
+.learn{
+	padding-top: 108px;
+	padding-bottom: 119px;
+	text-align: center;
+}
+.section-title {
+	font-size: 30px;
+}
+
+.futuwrapp {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.future {
+	width: 310px;
+	background: url('../img/icon1.jpeg') no-repeat top;
+	padding-top: 90px;
+}
+
+.future-title{
+	font-size: 15px;
+}
+
+.future-text {
+	margin-top: 15px;
+}
+
+.trips {
+	background: url('../img/icon2.jpeg') no-repeat top;
+}
+
+.values {
+	background: url('../img/icon3.jpeg') no-repeat top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.allform {
+	width: 350px;
+	margin-left: 414px;
+	margin-top: 60px;
+}
+
+.btngo {
+	border: 0;
+	width: 350px;
+}
+
+.input {
+	width: 340px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.footer {
+	padding: 65px 0;
+	background: #164d7a;
+	text-align: center;
+}
+
+.f {
+	margin: 0;
+	color: #fff;
+}
